@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Mohammad Younes Araghi — Mechanical Engineering, University of Oklahoma</title>
+<meta name="description" content="Mohammad Younes Araghi - Ph.D. candidate in Mechanical Engineering at the University of Oklahoma. CALPHAD thermodynamics, phase-field modeling, metal additive manufacturing, welding inspection and NDT.">
+<meta name="author" content="Mohammad Younes Araghi">
+<link rel="canonical" href="https://REPLACE-WITH-YOUR-DOMAIN.com/">
+
+<!-- Social sharing cards (LinkedIn, X, Slack, iMessage).
+     After you pick a domain, replace REPLACE-WITH-YOUR-DOMAIN.com everywhere in this file. -->
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Mohammad Younes Araghi — Mechanical Engineering">
+<meta property="og:description" content="Mohammad Younes Araghi - Ph.D. candidate in Mechanical Engineering at the University of Oklahoma. CALPHAD thermodynamics, phase-field modeling, metal additive manufacturing, welding inspection and NDT.">
+<meta property="og:url" content="https://REPLACE-WITH-YOUR-DOMAIN.com/">
+<meta property="og:image" content="https://REPLACE-WITH-YOUR-DOMAIN.com/headshot.jpg">
+<meta property="profile:first_name" content="Mohammad">
+<meta property="profile:last_name" content="Younes Araghi">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mohammad Younes Araghi — Mechanical Engineering">
+<meta name="twitter:description" content="Mohammad Younes Araghi - Ph.D. candidate in Mechanical Engineering at the University of Oklahoma. CALPHAD thermodynamics, phase-field modeling, metal additive manufacturing, welding inspection and NDT.">
+<meta name="twitter:image" content="https://REPLACE-WITH-YOUR-DOMAIN.com/headshot.jpg">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%2315181C'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' font-weight='700' fill='%23C77A4C' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Mohammad Younes Araghi",
+  "givenName": "Mohammad",
+  "familyName": "Younes Araghi",
+  "jobTitle": "Ph.D. Candidate, Mechanical Engineering",
+  "email": "mailto:mohammad.younes.araghi-1@ou.edu",
+  "telephone": "+1-405-873-5351",
+  "url": "https://REPLACE-WITH-YOUR-DOMAIN.com",
+  "image": "https://REPLACE-WITH-YOUR-DOMAIN.com/headshot.jpg",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "University of Oklahoma",
+    "department": "School of Aerospace and Mechanical Engineering"
+  },
+  "alumniOf": [
+    {"@type": "CollegeOrUniversity", "name": "University of Tehran"},
+    {"@type": "CollegeOrUniversity", "name": "University of Arak"}
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Norman",
+    "addressRegion": "OK",
+    "addressCountry": "US"
+  },
+  "knowsAbout": [
+    "CALPHAD", "Computational thermodynamics", "Phase-field modeling",
+    "Metal additive manufacturing", "Finite element analysis",
+    "Computational fluid dynamics", "Welding metallurgy",
+    "Non-destructive testing", "Failure analysis", "Machine learning for materials"
+  ]
+}
+</script>
+
+<style>
+/* Baseline reset — the hosting platform supplies none, unlike the preview environment. */
+*{box-sizing:border-box}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+:root{color-scheme:light dark}
+
+
+:root{
+  --ground:#F3F4F6;
+  --surface:#FFFFFF;
+  --surface-2:#E9EBEF;
+  --ink:#15181C;
+  --ink-2:#464F59;
+  --ink-3:#6E7883;
+  --rule:#D7DBE1;
+  --rule-2:#BFC6CF;
+  --copper:#96562F;
+  --copper-soft:#F0E4DC;
+  --steel:#415569;
+  --steel-soft:#E2E8EE;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#101316;
+    --surface:#191D22;
+    --surface-2:#22272D;
+    --ink:#E9ECEF;
+    --ink-2:#A7B0BA;
+    --ink-3:#7A8490;
+    --rule:#2C333B;
+    --rule-2:#3D4650;
+    --copper:#D18A5E;
+    --copper-soft:#2A1D15;
+    --steel:#8FA8BF;
+    --steel-soft:#1A222B;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#101316;
+  --surface:#191D22;
+  --surface-2:#22272D;
+  --ink:#E9ECEF;
+  --ink-2:#A7B0BA;
+  --ink-3:#7A8490;
+  --rule:#2C333B;
+  --rule-2:#3D4650;
+  --copper:#D18A5E;
+  --copper-soft:#2A1D15;
+  --steel:#8FA8BF;
+  --steel-soft:#1A222B;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:74px}
+body{
+  margin:0;background:var(--ground);color:var(--ink);
+  font-family:Newsreader,Georgia,"Times New Roman",serif;
+  font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4,.ui{font-family:Archivo,system-ui,-apple-system,sans-serif}
+h1,h2,h3{text-wrap:balance;margin:0;letter-spacing:-.018em}
+a{color:var(--copper);text-decoration-thickness:1px;text-underline-offset:2px}
+a:focus-visible{outline:2px solid var(--copper);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:24px}
+
+/* ---------- nav ---------- */
+nav{
+  position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--ground) 92%,transparent);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--rule);
+}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:60px}
+.navname{font-family:Archivo,sans-serif;font-weight:700;font-size:15px;letter-spacing:-.01em}
+.navlinks{display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.navlinks a{
+  font-family:Archivo,sans-serif;font-size:13px;font-weight:500;color:var(--ink-2);
+  text-decoration:none;letter-spacing:.01em;
+}
+.navlinks a:hover{color:var(--copper)}
+.btn-cv{
+  font-family:Archivo,sans-serif;font-size:12.5px;font-weight:600;
+  background:var(--ink);color:var(--ground);border:none;padding:8px 14px;
+  border-radius:3px;cursor:pointer;letter-spacing:.01em;
+}
+.btn-cv:hover{background:var(--copper)}
+.btn-cv:focus-visible{outline:2px solid var(--copper);outline-offset:2px}
+
+/* ---------- hero ---------- */
+.hero{padding-block:60px 54px;border-bottom:1px solid var(--rule)}
+.hero .wrap{display:grid;grid-template-columns:200px 1fr;gap:44px;align-items:start}
+.portrait{
+  width:200px;height:200px;border-radius:3px;object-fit:cover;display:block;
+  filter:grayscale(1) contrast(1.04);border:1px solid var(--rule-2);
+}
+.kicker{
+  font-family:Archivo,sans-serif;font-size:11px;font-weight:600;letter-spacing:.15em;
+  text-transform:uppercase;color:var(--copper);margin-bottom:14px;
+}
+.hero h1{font-size:clamp(34px,6vw,52px);font-weight:700;line-height:1.02}
+.hero .hero-role{
+  font-family:Archivo,sans-serif;font-size:17px;font-weight:500;color:var(--ink-2);
+  margin-top:12px;letter-spacing:-.005em;
+}
+.hero .bio{margin-top:22px;max-width:60ch;font-size:18px;color:var(--ink-2)}
+.hero .bio strong{color:var(--ink);font-weight:500}
+.facts{
+  display:flex;flex-wrap:wrap;gap:8px 26px;margin-top:26px;
+  font-family:var(--mono);font-size:11.5px;color:var(--ink-3);letter-spacing:.01em;
+}
+.facts span b{color:var(--ink-2);font-weight:500}
+.facts a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--rule-2)}
+.facts a:hover{color:var(--copper);border-color:var(--copper)}
+
+/* ---------- section scaffolding ---------- */
+section.band{padding-block:56px;border-bottom:1px solid var(--rule)}
+.sec-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:8px}
+.sec-head h2{font-size:27px;font-weight:600}
+.sec-head .n{font-family:var(--mono);font-size:11px;color:var(--ink-3);letter-spacing:.06em}
+.sec-intro{color:var(--ink-2);max-width:64ch;margin:0 0 34px;font-size:17px}
+
+/* ---------- research ---------- */
+.projects{display:grid;gap:0}
+.proj{
+  display:grid;grid-template-columns:150px 1fr;gap:34px;
+  padding-block:28px;border-top:1px solid var(--rule);
+}
+.proj:last-child{border-bottom:1px solid var(--rule)}
+.proj .side{padding-top:3px}
+.proj .where{font-family:Archivo,sans-serif;font-size:12px;font-weight:600;color:var(--ink-2);line-height:1.35}
+.proj .when{font-family:var(--mono);font-size:11px;color:var(--ink-3);margin-top:5px}
+.proj h3{font-size:20px;font-weight:600;line-height:1.25}
+.proj p{margin:10px 0 0;color:var(--ink-2);max-width:62ch}
+.proj p:first-of-type{color:var(--ink)}
+.tools{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.tool{
+  font-family:var(--mono);font-size:10.5px;color:var(--steel);background:var(--steel-soft);
+  padding:3px 8px;border-radius:2px;letter-spacing:.02em;
+}
+
+/* ---------- publications ---------- */
+.pubs{display:grid;gap:0}
+.pub{padding-block:24px;border-top:1px solid var(--rule)}
+.pub:last-child{border-bottom:1px solid var(--rule)}
+.pub-top{display:grid;grid-template-columns:44px 1fr;gap:18px}
+.pub-yr{font-family:var(--mono);font-size:12px;color:var(--ink-3);padding-top:4px;font-variant-numeric:tabular-nums}
+.pub h3{font-size:18px;font-weight:600;line-height:1.3;max-width:58ch}
+.pub .authors{font-size:15px;color:var(--ink-2);margin-top:7px;max-width:62ch}
+.pub .authors .me{color:var(--ink);font-weight:500;border-bottom:1.5px solid var(--copper)}
+.pub .venue{font-family:Archivo,sans-serif;font-size:13px;color:var(--ink-3);margin-top:6px}
+.pub .venue em{font-style:normal;color:var(--ink-2);font-weight:500}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:11px;align-items:center}
+.badge{
+  font-family:var(--mono);font-size:10px;letter-spacing:.07em;text-transform:uppercase;
+  padding:3px 7px;border-radius:2px;font-weight:600;
+}
+.b-first{background:var(--copper-soft);color:var(--copper)}
+.b-oa{background:var(--steel-soft);color:var(--steel)}
+.doi{
+  font-family:var(--mono);font-size:10.5px;text-decoration:none;color:var(--ink-3);
+  border:1px solid var(--rule-2);padding:3px 8px;border-radius:2px;letter-spacing:.02em;
+}
+.doi:hover{color:var(--copper);border-color:var(--copper)}
+details.abs{margin-top:14px}
+details.abs summary{
+  font-family:Archivo,sans-serif;font-size:12.5px;font-weight:600;color:var(--ink-2);
+  cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:7px;
+}
+details.abs summary::-webkit-details-marker{display:none}
+details.abs summary::before{
+  content:"+";font-family:var(--mono);font-size:13px;color:var(--copper);
+  width:15px;height:15px;display:grid;place-items:center;border:1px solid var(--rule-2);border-radius:2px;
+}
+details.abs[open] summary::before{content:"–"}
+details.abs summary:hover{color:var(--copper)}
+details.abs summary:focus-visible{outline:2px solid var(--copper);outline-offset:3px;border-radius:2px}
+.abs-body{
+  margin-top:13px;padding:16px 18px;background:var(--surface);border-left:2px solid var(--copper);
+  font-size:15.5px;line-height:1.65;color:var(--ink-2);max-width:68ch;
+}
+.abs-body p{margin:0}
+
+/* ---------- experience ---------- */
+.roles{display:grid;gap:0}
+.roles .role{display:grid;grid-template-columns:150px 1fr;gap:34px;padding-block:24px;border-top:1px solid var(--rule)}
+.roles .role:last-child{border-bottom:1px solid var(--rule)}
+.roles .role .when{font-family:var(--mono);font-size:11px;color:var(--ink-3);padding-top:4px;line-height:1.5}
+.roles .role h3{font-size:18px;font-weight:600}
+.roles .role .org{font-family:Archivo,sans-serif;font-size:13.5px;color:var(--ink-2);margin-top:4px}
+.roles .role ul{margin:12px 0 0;padding-left:17px;color:var(--ink-2);max-width:62ch}
+.roles .role li{margin-bottom:6px}
+.roles .role li::marker{color:var(--rule-2)}
+
+/* ---------- teaching ---------- */
+.teach-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:26px}
+.teach-col h4{font-family:Archivo,sans-serif;font-size:12px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);margin:0 0 12px}
+.teach-col ul{margin:0;padding-left:17px;color:var(--ink-2);font-size:16px}
+.teach-col li{margin-bottom:9px}
+.teach-col li::marker{color:var(--rule-2)}
+.teach-col li strong{color:var(--ink);font-weight:500}
+
+/* ---------- skills ---------- */
+.skills{display:grid;gap:0}
+.skill{display:grid;grid-template-columns:230px 1fr;gap:28px;padding-block:15px;border-top:1px solid var(--rule)}
+.skill:last-child{border-bottom:1px solid var(--rule)}
+.skill dt{font-family:Archivo,sans-serif;font-size:13.5px;font-weight:600;color:var(--ink)}
+.skill dd{margin:0;color:var(--ink-2);font-size:16px}
+
+/* ---------- contact ---------- */
+.contact-inner{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:26px;margin-top:6px}
+.cblock .lbl{font-family:Archivo,sans-serif;font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-bottom:7px}
+.cblock .val{font-size:17px}
+.cblock .val a{text-decoration:none;border-bottom:1px solid var(--rule-2)}
+.cblock .val a:hover{border-color:var(--copper)}
+
+footer{padding-block:30px 44px;font-family:var(--mono);font-size:11px;color:var(--ink-3);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+/* ---------- responsive ---------- */
+@media (max-width:760px){
+  .hero .wrap{grid-template-columns:1fr;gap:26px}
+  .portrait{width:132px;height:132px}
+  .proj,.role{grid-template-columns:1fr;gap:10px}
+  .skill{grid-template-columns:1fr;gap:5px}
+  .navlinks{display:none}
+  .pub-top{grid-template-columns:1fr;gap:6px}
+  .pub-yr{padding-top:0}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+
+/* ---------- print: clean CV ---------- */
+@media print{
+  :root{--ground:#fff;--surface:#fff;--ink:#000;--ink-2:#333;--ink-3:#666;--rule:#ccc;--rule-2:#999;--copper:#8a4f2a;--steel:#3a4a5a;--steel-soft:#eee;--copper-soft:#f2ece8}
+  body{background:#fff;font-size:10.5pt;line-height:1.42}
+  nav,.btn-cv,footer,.sec-intro,.proj .tools{display:none!important}
+  .wrap{max-width:100%;padding-inline:0}
+  .hero{padding-block:0 14px}
+  .hero .wrap{grid-template-columns:86px 1fr;gap:20px}
+  .portrait{width:86px;height:86px}
+  .hero h1{font-size:23pt}
+  .hero .bio{font-size:10.5pt;margin-top:10px}
+  section.band{padding-block:14px;break-inside:auto}
+  .sec-head h2{font-size:14pt}
+  .proj,.roles .role,.pub,.skill{break-inside:avoid;padding-block:9px}
+  .proj h3,.role h3,.pub h3{font-size:11.5pt}
+  details.abs{display:none}
+  .abs-body{display:none}
+  a{color:#000;text-decoration:none}
+  .doi{border:none;padding:0;color:#555}
+  @page{margin:14mm}
+}
+
+</style>
+</head>
+<body>
+<nav>
+  <div class="wrap">
+    <span class="navname">Mohammad Younes Araghi</span>
+    <div class="navlinks">
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="btn-cv" id="print-cv" type="button">Save CV as PDF</button>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="wrap">
+    <img class="portrait" src="data:image/jpeg;base64,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" alt="Portrait of Mohammad Younes Araghi">
+    <div>
+      <div class="kicker">Mechanical Engineering · University of Oklahoma</div>
+      <h1>Mohammad Younes Araghi</h1>
+      <div class="hero-role">Ph.D. Candidate — Computational Materials &amp; Manufacturing</div>
+      <p class="bio">I model what happens to metal when it gets hot. My work runs from <strong>CALPHAD thermodynamics and phase-field simulation</strong> of solidification and phase transformation, through <strong>melt-pool physics in additive manufacturing</strong>, to machine-learning surrogates that make those models fast enough to search over. Before graduate school I trained welding inspectors and NDT technicians, which is still how I think about whether a part will hold.</p>
+      <div class="facts">
+        <span><b>Norman, Oklahoma</b></span>
+        <span><b>Ph.D. expected</b> Aug 2027</span>
+        <span><b>GPA</b> 4.00 / 4.00</span>
+        <span><b>5</b> peer-reviewed papers</span>
+        <span><a href="mailto:mohammad.younes.araghi-1@ou.edu">mohammad.younes.araghi-1@ou.edu</a></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="band" id="research">
+  <div class="wrap">
+    <div class="sec-head"><h2>Research</h2><span class="n">four principal threads</span></div>
+    <p class="sec-intro">A common thread runs through all of it: build a physics-based model of a metallurgical process, validate it against microscopy, then find a way to make the model cheap enough to search over.</p>
+
+    <div class="projects">
+
+      <div class="proj">
+        <div class="side">
+          <div class="where">CM3 Research Lab<br>University of Oklahoma</div>
+          <div class="when">2023 – present</div>
+        </div>
+        <div>
+          <h3>Data-driven design of crack-resistant superalloys</h3>
+          <p>Built a 555-alloy thermodynamic property database in Thermo-Calc, then trained supervised and unsupervised machine learning models to rank candidate compositions by crack susceptibility coefficient — turning open-ended experimental trial-and-error into a prioritized shortlist.</p>
+          <p>The second half of the project attacks the interpretability problem: applying symbolic regression (deep symbolic optimization, PySR, SISSO) to recover closed-form equations linking CALPHAD-derived features to alloy behavior, so the result is a design rule an engineer can apply rather than a model they have to trust.</p>
+          <div class="tools"><span class="tool">Thermo-Calc</span><span class="tool">CALPHAD</span><span class="tool">Python</span><span class="tool">scikit-learn</span><span class="tool">PySR</span><span class="tool">SISSO</span><span class="tool">DSO</span></div>
+        </div>
+      </div>
+
+      <div class="proj">
+        <div class="side">
+          <div class="where">CM3 Research Lab<br>University of Oklahoma</div>
+          <div class="when">2023 – present</div>
+        </div>
+        <div>
+          <h3>Melt-pool physics in metal additive manufacturing</h3>
+          <p>Physics-based computational models of melt-based AM processes in FLOW-3D AM, predicting melt-pool thermal behavior, solidification dynamics and defect formation in order to define workable process windows before any material is committed.</p>
+          <p>The modeling work sits alongside two review papers surveying the state of physics-based AM process modeling and the particular difficulties of printing refractory metals — materials whose high melting points and intrinsic brittleness defeat most conventional fabrication routes.</p>
+          <div class="tools"><span class="tool">FLOW-3D AM</span><span class="tool">MOOSE</span><span class="tool">Heat transfer</span><span class="tool">Solidification</span><span class="tool">HPC</span></div>
+        </div>
+      </div>
+
+      <div class="proj">
+        <div class="side">
+          <div class="where">Advanced Metal Forming Lab<br>University of Tehran</div>
+          <div class="when">2021 – 2023</div>
+        </div>
+        <div>
+          <h3>Pearlite transformation in API X60 pipeline steel</h3>
+          <p>Simulated the formation and morphology of pearlite in high-strength low-alloy line-pipe steel using a Cahn–Hilliard phase-field model, comparing double-well and triple-well potential formulations against metallography and FESEM.</p>
+          <p>The triple-well formulation — which admits a three-phase ferrite–cementite–austenite microstructure rather than only two — matched experiment to roughly 10%. The work also confirmed that interlamellar spacing and layer thickness both fall as cooling rate rises. This is the transformation behavior that governs weldability, heat-affected-zone properties and toughness in pipeline-grade carbon steel.</p>
+          <div class="tools"><span class="tool">Phase-field</span><span class="tool">Cahn–Hilliard</span><span class="tool">FESEM</span><span class="tool">Metallography</span><span class="tool">MATLAB</span></div>
+        </div>
+      </div>
+
+      <div class="proj">
+        <div class="side">
+          <div class="where">Prof. Bahrami's Laboratory<br>Isfahan University of Technology</div>
+          <div class="when">2017 – 2019</div>
+        </div>
+        <div>
+          <h3>Root-cause failure analysis of continuous casting rolls</h3>
+          <p>Investigated in-service failure of repair-welded continuous casting rolls, where localized corrosion initiated at the boundaries between welding passes and propagated into characteristic "zebra line" damage patterns.</p>
+          <p>Optical microscopy, SEM and EDS traced the initiation to elongated chromium-rich phases at an intermediate state between delta ferrite and sigma phase. Chromium enrichment of the delta ferrite during service depletes the surrounding matrix, and that depletion is what makes the sites susceptible to corrosion.</p>
+          <div class="tools"><span class="tool">SEM / FESEM</span><span class="tool">EDS</span><span class="tool">XRD</span><span class="tool">Metallography</span><span class="tool">Weld metallurgy</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="band" id="publications">
+  <div class="wrap">
+    <div class="sec-head"><h2>Publications</h2><span class="n">5 peer-reviewed · 2 as first author</span></div>
+    <p class="sec-intro">Abstracts below are the published text. Expand any entry to read it in full.</p>
+
+    <div class="pubs">
+
+      <div class="pub">
+        <div class="pub-top">
+          <div class="pub-yr">2025</div>
+          <div>
+            <h3>Melt-based additive manufacturing of refractory metals and alloys: Experiments and modeling</h3>
+            <p class="authors"><span class="me">Mohammad Younes Araghi</span>, Ali Dashti, Mahshad Fani, Iman Ghamarian, Cesar Ruiz, Shuozhi Xu</p>
+            <div class="venue"><em>Journal of Materials Research and Technology</em> · Vol. 37, pp. 870–892 · July 2025</div>
+            <div class="badges">
+              <span class="badge b-first">First author</span>
+              <span class="badge b-oa">Open access</span>
+              <a class="doi" href="https://doi.org/10.1016/j.jmrt.2025.05.207" target="_blank" rel="noopener">10.1016/j.jmrt.2025.05.207</a>
+            </div>
+            <details class="abs">
+              <summary>Abstract</summary>
+              <div class="abs-body"><p>Refractory metals and alloys possess unique properties, such as high melting points and excellent mechanical stability at elevated temperatures, making them attractive for aerospace, nuclear, and other demanding industries. However, fabrication of these materials using traditional manufacturing techniques is challenging due to their high melting points and intrinsic brittleness. Additive manufacturing (AM) techniques provide an approach to mitigate some of these challenges, but systematic insights into their process parameters, microstructure control, and mechanical performance remain fragmented in the literature. This paper provides an overview of the challenges and future prospects associated with melt-based AM of refractory metals and alloys from the perspectives of experiments, physics-based models, and data-driven approaches. Our review concludes by summarizing the frontiers in the field and highlighting the future developments necessary to enable efficient AM fabrication of refractory metals and alloys.</p></div>
+            </details>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-top">
+          <div class="pub-yr">2025</div>
+          <div>
+            <h3>Constructing surrogates for atomistic simulations via deep learning and generative large language models</h3>
+            <p class="authors">Mahshad Fani, William Chadwell, Nishad Tasnim, Xin Wang, <span class="me">Mohammad Younes Araghi</span>, Kun Lu, Zejian Zhou, Tang Gu, Shuozhi Xu</p>
+            <div class="venue"><em>Journal of Materials Research</em> · Vol. 41, No. 1, pp. 180–196 · 2025</div>
+            <div class="badges">
+              <span class="badge b-oa">Open access</span>
+              <a class="doi" href="https://doi.org/10.1557/s43578-025-01571-1" target="_blank" rel="noopener">10.1557/s43578-025-01571-1</a>
+            </div>
+            <details class="abs">
+              <summary>Abstract</summary>
+              <div class="abs-body"><p>Atomistic simulations offer insights into material behavior at the atomic level. However, they can be computationally intensive. In this paper, two deep learning models, deep symbolic optimization (DSO) and deep neural networks (DNN), and one generative large language model, GPT-4o, are employed to construct surrogates for atomistic simulations. Specifically, atomistic simulations are first performed to investigate the collapse of a nanovoid under hydrostatic pressure. We focus on the role of initial void radius and material characteristics, such as intrinsic and unstable stacking fault energies and surface energy (SE). We find that the critical pressure required for void collapse spans from 17.05 to 19.62 GPa, with the highest values corresponding to the maximum USFE. Additionally, an intermediate SE value (1068.13 mJ/m²) minimizes the critical pressure. Based on the simulation results, surrogate models based on DSO, DNN, and GPT-4o are constructed, concluding that the SE affects the critical pressure the most.</p></div>
+            </details>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-top">
+          <div class="pub-yr">2024</div>
+          <div>
+            <h3>Physics-based modeling of metal additive manufacturing processes: a review</h3>
+            <p class="authors">Shuozhi Xu, <span class="me">Mohammad Younes Araghi</span>, Yanqing Su</p>
+            <div class="venue"><em>The International Journal of Advanced Manufacturing Technology</em> · Vol. 134, No. 1–2, pp. 1–13 · 2024 · Critical Review</div>
+            <div class="badges">
+              <a class="doi" href="https://doi.org/10.1007/s00170-024-14156-9" target="_blank" rel="noopener">10.1007/s00170-024-14156-9</a>
+            </div>
+            <details class="abs">
+              <summary>Abstract</summary>
+              <div class="abs-body"><p>In the modern world, the ubiquity and critical importance of metallic materials are evident in everything from infrastructure and transportation to electronics and aerospace. Additive manufacturing (AM) of metals has revolutionized traditional production methods by enabling the creation of high-value components with topologically optimized complex geometries and functionalities. This review addresses the critical need for sophisticated physics-based models to investigate and optimize the AM processes of metals. We explore both melt-based and solid-state AM techniques, highlighting the current state-of-the-art modeling approaches. The purpose of this review is to evaluate existing models, identify their strengths and limitations, and suggest areas for future research to enhance the predictability and optimization of AM processes. By summarizing and comparing various modeling techniques, this review aims to provide a comprehensive understanding of the current research landscape. We focus on the pros and cons of different models, including their applicability to key elements and processes common to both melt-based and solid-state AM methods. Where multiple models exist for a single technique, a comparison is drawn to highlight their relative pros and cons. Concluding this review, we contemplate prospective advancements in sophisticated physics-based process modeling and strategies for their integration with models for structure-properties relations.</p></div>
+            </details>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-top">
+          <div class="pub-yr">2024</div>
+          <div>
+            <h3>Characterizing pearlite transformation in an API X60 pipeline steel through phase-field modeling and experimental validation</h3>
+            <p class="authors"><span class="me">Mohammad Y. Araghi</span>, M. H. Parsa, Mostafa Ghane Ezabadi, Reza Roumina, Hamed Mirzadeh, Shuozhi Xu</p>
+            <div class="venue"><em>Frontiers in Materials</em> · Vol. 11, Article 1390159 · June 2024</div>
+            <div class="badges">
+              <span class="badge b-first">First author</span>
+              <span class="badge b-oa">Open access</span>
+              <a class="doi" href="https://doi.org/10.3389/fmats.2024.1390159" target="_blank" rel="noopener">10.3389/fmats.2024.1390159</a>
+            </div>
+            <details class="abs">
+              <summary>Abstract</summary>
+              <div class="abs-body"><p>This study explores the microstructural characterization of pearlite phase transformation in high-strength low-alloy API X60 steel, which is used in pipelines. Understanding the formation, phase percentages, and morphology of the pearlitic phase is crucial since it affects the mechanical properties of the considered steel. In this research, a phase-field model, particularly the Cahn–Hilliard approach, was used in order to simulate the formation and morphology of the pearlite phase in response to different heat treatments. Both double- and triple-well potentials were considered for comprehensively studying pearlite's morphology in the simulations. The simulation results were then compared with experimental outcomes obtained by metallography and field-emission scanning electron microscopy analyses. Considering the double-well potential can help simulate only two phases, ferrite and cementite, which is less compatible with the experiment results than the triple-well potential, which gives the possibility of simulating a three-phase microstructure, ferrite, cementite, and austenite, and a better match with experimental data. The study revealed that as the cooling rate increases, the interlamellar spacing and layer thickness decrease. Additionally, the difference between experimental and simulation results using triple-well potential was approximately ∼10%. Therefore, triple-well potential formulation predictions have better agreements with experimental results for the development circumstance of pearlitic structures.</p></div>
+            </details>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-top">
+          <div class="pub-yr">2020</div>
+          <div>
+            <h3>Establishing the cause of failure in continuous casting rolls</h3>
+            <p class="authors">B. Hadizadeh, A. Bahrami, A. Eslami, K. Abdian, <span class="me">M. Younes Araghi</span>, M. Etezazi</p>
+            <div class="venue"><em>Engineering Failure Analysis</em> · Vol. 108, Article 104346 · January 2020</div>
+            <div class="badges">
+              <a class="doi" href="https://doi.org/10.1016/j.engfailanal.2019.104346" target="_blank" rel="noopener">10.1016/j.engfailanal.2019.104346</a>
+            </div>
+            <details class="abs">
+              <summary>Abstract</summary>
+              <div class="abs-body"><p>This paper investigates failure of repair welded continuous casting rolls. Observed failures are in the form of localized corrosion, initiated at boundaries between two welding passes. Defects were categorized into three typical damages: zebra lines, partially interconnected zebra lines, and fully connected zebra lines. In some cases, star like features were also distributed on the surface of the roll. Optical microscope, scanning electron microscope (SEM), and energy dispersive X-ray spectroscopy (EDS) were used to characterize microstructure of failed rolls. Damage is appeared to be initiated from elongated greyish phases, which are rich in Cr. These phases are at intermediate states between delta ferrites and sigma phase. Cr enrichment of delta ferrite during service is associated with Cr depletion of the matrix and this in turn makes these phases susceptible to the initiation of corrosion.</p></div>
+            </details>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="band" id="experience">
+  <div class="wrap">
+    <div class="sec-head"><h2>Experience &amp; Education</h2></div>
+    <div class="roles">
+
+      <div class="role">
+        <div class="when">Aug 2023<br>– present</div>
+        <div>
+          <h3>Graduate Research Assistant</h3>
+          <div class="org">CM3 Research Lab (Prof. Shuozhi Xu) · University of Oklahoma</div>
+          <ul>
+            <li>Physics-based thermal-fluid modeling of metal AM melt pools; CALPHAD database construction and ML-driven alloy screening; symbolic regression for interpretable design rules.</li>
+            <li>Operate SEM for microstructural characterization and defect analysis, correlating processing conditions to microstructure and mechanical performance.</li>
+            <li>Supervise two undergraduate researchers on molecular dynamics studies of single-crystal copper using LAMMPS with ML-assisted analysis.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="role">
+        <div class="when">2023 – 2024</div>
+        <div>
+          <h3>Visiting Graduate Researcher</h3>
+          <div class="org">Nanostructured Aerospace Materials Laboratory (Prof. Jingyao Dai) · University of Oklahoma</div>
+          <ul>
+            <li>Fabricated 3D-architected polymer templates on resin SLA printers as scaffolds for freestanding ZnO and ZrO ceramic structures, formed by immersion in metal-ion photoresin followed by thermal conversion.</li>
+            <li>Optimized exposure parameters, build orientation and scaffold geometry to hold dimensional tolerance through chemical infiltration and high-temperature sintering.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="role">
+        <div class="when">Jan 2021<br>– Jul 2023</div>
+        <div>
+          <h3>Graduate Research Assistant</h3>
+          <div class="org">Advanced Metal Forming &amp; Thermomechanical Processing Lab (Prof. M. H. Parsa) · University of Tehran</div>
+          <ul>
+            <li>Phase-field modeling of pearlite transformation in API X60 line-pipe steel with experimental validation by metallography and FESEM.</li>
+            <li>Investigated the effect of equal channel angular pressing and rolling on the microstructure and crystallographic texture of AA5083 aluminum.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="role">
+        <div class="when">Sep 2017<br>– Sep 2019</div>
+        <div>
+          <h3>Undergraduate Research Assistant</h3>
+          <div class="org">Faculty Research Laboratory (Prof. Abbas Bahrami) · Isfahan University of Technology</div>
+          <ul>
+            <li>Root-cause failure analysis of continuous casting rolls by FESEM, XRD and metallography.</li>
+            <li>Coupled thermal-electrical finite element models of spark plasma sintering in COMSOL Multiphysics and MATLAB.</li>
+            <li>Characterized transient liquid phase bonding between 4340 steel and Monel 400.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="role">
+        <div class="when">Jul 2017<br>– Jan 2018</div>
+        <div>
+          <h3>Professional Trainer — Welding Inspection &amp; NDT</h3>
+          <div class="org">Isfahan Technical and Vocational Training Organization</div>
+          <ul>
+            <li>Instructed working technicians in welding inspection and non-destructive testing — visual, ultrasonic and liquid penetrant methods to Level II practice — covering written procedure compliance, discontinuity identification and accept/reject criteria.</li>
+            <li>Qualified in quantometer (spark OES) chemical analysis and metallography for incoming-material verification.</li>
+            <li>Designed automotive components in CATIA during a concurrent CAD-based manufacturing internship.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="role">
+        <div class="when">Education</div>
+        <div>
+          <h3>Degrees</h3>
+          <ul>
+            <li><strong>Ph.D., Mechanical Engineering</strong> — University of Oklahoma, expected Aug 2027. GPA 4.00/4.00. Dissertation: <em>Computational Modeling of Additive Manufacturing Processes</em>.</li>
+            <li><strong>Graduate Certificate, Data Science and Analytics</strong> — University of Oklahoma Graduate College, Dec 2025.</li>
+            <li><strong>M.Sc., Materials Engineering</strong> — University of Tehran, Jul 2023. GPA 3.65/4.00. Thesis: <em>Simulating Phase Transformations in Oil &amp; Gas Pipeline Steel</em>.</li>
+            <li><strong>B.Sc., Materials Engineering</strong> — University of Arak, Jan 2020. GPA 3.45/4.00.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="band" id="teaching">
+  <div class="wrap">
+    <div class="sec-head"><h2>Teaching &amp; Mentoring</h2></div>
+    <div class="teach-grid">
+      <div class="teach-col">
+        <h4>Graduate teaching</h4>
+        <ul>
+          <li><strong>Thermodynamics</strong> — teaching assistant</li>
+          <li><strong>Fluid Mechanics</strong> — teaching assistant</li>
+          <li><strong>Statics</strong> — teaching assistant</li>
+          <li><strong>Interactive Engineering Design Simulation</strong> — teaching assistant</li>
+          <li><strong>Computational Materials Science</strong> — guest lecturer, AME Department, University of Oklahoma</li>
+        </ul>
+      </div>
+      <div class="teach-col">
+        <h4>Mentoring</h4>
+        <ul>
+          <li>Led <strong>two undergraduate researchers</strong> through a molecular dynamics study of single-crystal copper in LAMMPS, including ML-assisted analysis of the results — coordinating deliverables across two collaborating labs.</li>
+        </ul>
+      </div>
+      <div class="teach-col">
+        <h4>Professional instruction</h4>
+        <ul>
+          <li>Trained working technicians in <strong>welding inspection and NDT</strong> — visual, ultrasonic and liquid penetrant testing to Level II practice — at the Isfahan Technical and Vocational Training Organization.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="skills">
+  <div class="wrap">
+    <div class="sec-head"><h2>Technical Skills</h2></div>
+    <dl class="skills">
+      <div class="skill"><dt>Simulation &amp; modeling</dt><dd>FLOW-3D AM · COMSOL Multiphysics · ANSYS · MOOSE · phase-field methods · finite element analysis · LAMMPS molecular dynamics</dd></div>
+      <div class="skill"><dt>Thermodynamics &amp; alloy design</dt><dd>Thermo-Calc · CALPHAD methodology · phase equilibria · solidification modeling</dd></div>
+      <div class="skill"><dt>CAD &amp; fabrication</dt><dd>SolidWorks · CATIA · Autodesk Fusion 360 · Chitubox · resin SLA printing · design for manufacturability</dd></div>
+      <div class="skill"><dt>Characterization</dt><dd>SEM / FESEM · EDS · XRD · metallography · quantometer (spark OES) chemical analysis</dd></div>
+      <div class="skill"><dt>Inspection &amp; testing</dt><dd>NDT Level II — visual (VT), ultrasonic (UT), liquid penetrant (PT) · welding inspection · failure and root-cause analysis</dd></div>
+      <div class="skill"><dt>Programming &amp; ML</dt><dd>Python · MATLAB · R · PyTorch · TensorFlow · scikit-learn · symbolic regression (PySR, SISSO, DSO) · Linux and HPC cluster workflows</dd></div>
+      <div class="skill"><dt>Honors</dt><dd>TMS International Symposium on Superalloys Scholarship (2025) · CASH Scholarship, University of Oklahoma (2024–2026) · Farzaneh Family Scholarship (2023–2026)</dd></div>
+      <div class="skill"><dt>Affiliations</dt><dd>ASM International · Association for Iron &amp; Steel Technology · American Ceramic Society</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="band" id="contact">
+  <div class="wrap">
+    <div class="sec-head"><h2>Contact</h2></div>
+    <p class="sec-intro">I'm finishing my doctorate in August 2027 and open to conversations about mechanical design, simulation, materials and manufacturing roles — in industry or research.</p>
+    <div class="contact-inner">
+      <div class="cblock">
+        <div class="lbl">Email</div>
+        <div class="val"><a href="mailto:mohammad.younes.araghi-1@ou.edu">mohammad.younes.araghi-1@ou.edu</a></div>
+      </div>
+      <div class="cblock">
+        <div class="lbl">Phone</div>
+        <div class="val"><a href="tel:+14058735351">(405) 873-5351</a></div>
+      </div>
+      <div class="cblock">
+        <div class="lbl">Location</div>
+        <div class="val">Norman, Oklahoma</div>
+      </div>
+      <div class="cblock">
+        <div class="lbl">Department</div>
+        <div class="val">Aerospace &amp; Mechanical Engineering<br>University of Oklahoma</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <span>© 2026 Mohammad Younes Araghi</span>
+  <span>Norman, Oklahoma</span>
+</footer>
+
+<script>
+document.getElementById('print-cv').addEventListener('click', function(){
+  window.print();
+});
+</script>
+
+</body>
+</html>
